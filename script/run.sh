@@ -1,0 +1,1 @@
+python -u ./launcher/basic_launcher.py --model trans+mlp --learning_rate 0.0001 --epoch 3000 --iter 1

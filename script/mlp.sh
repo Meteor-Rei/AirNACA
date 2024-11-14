@@ -1,0 +1,1 @@
+python -u ./launcher/basic_launcher.py --model mlp+concat --learning_rate 0.001 --epoch 5000 --iter 1
