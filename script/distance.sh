@@ -1,0 +1,1 @@
+python -u ./launcher/distance_launcher.py --model geom+concat --learning_rate 0.0002 --epoch 5000 --iter 5

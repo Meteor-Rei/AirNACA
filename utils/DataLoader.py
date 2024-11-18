@@ -55,7 +55,7 @@ class BasicDataProcessor():
         self._load_data(type)
 
     def _load_data(self, type = "selected", padding_length = 135):
-        for root, dirs, files in os.walk("./data/extracted"):  
+        for root, dirs, files in os.walk("./datas/extracted"):  
             if len(files) == 0: 
                 continue
             name = root.split("/")[-1]
@@ -82,6 +82,7 @@ class BasicDataProcessor():
             self.train_data , self.test_data = partition_random(self.data)
             self.train_padding_data, self.test_padding_data = partition_random(self.padding_data)
             self.train_padding_distance_data, self.test_padding_distance_data = partition_random(self.padding_distance_data)
+
 
 
 
